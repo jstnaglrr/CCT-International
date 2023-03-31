@@ -66,3 +66,15 @@
     z-index: 1;
     margin-top: -3rem;
 }
+
+.theFigure .item:nth-child(1){
+   @apply absolute left-[50%] -bottom-[12px] -translate-x-[120%]  -translate-y-0
+}
+
+.theFigure .item:nth-child(2){
+   @apply absolute left-[50%] -bottom-0 -translate-x-[45%] -translate-y-0
+}
+
+.theFigure .item:nth-child(3){
+   @apply absolute left-[50%] -bottom-[17px] translate-x-[38%] -translate-y-0
+}

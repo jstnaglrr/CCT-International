@@ -560,24 +560,8 @@ body {
   position: relative;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.-mb-1 {
-  margin-bottom: -0.25rem;
-}
-
-.-mb-5 {
-  margin-bottom: -1.25rem;
-}
-
-.-ml-20 {
-  margin-left: -5rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
+.-mt-32 {
+  margin-top: -8rem;
 }
 
 .mb-1 {
@@ -616,16 +600,16 @@ body {
   margin-bottom: 2.25rem;
 }
 
+.mb-\[5rem\] {
+  margin-bottom: 5rem;
+}
+
 .mb-\[90px\] {
   margin-bottom: 90px;
 }
 
 .ml-10 {
   margin-left: 2.5rem;
-}
-
-.ml-32 {
-  margin-left: 8rem;
 }
 
 .ml-40 {
@@ -676,8 +660,8 @@ body {
   height: 250px;
 }
 
-.h-\[35rem\] {
-  height: 35rem;
+.h-\[500px\] {
+  height: 500px;
 }
 
 .h-\[70px\] {
@@ -710,6 +694,18 @@ body {
 
 .w-\[770px\] {
   width: 770px;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .grid-cols-2 {
@@ -784,6 +780,10 @@ body {
   border-radius: 0.5rem;
 }
 
+.rounded-none {
+  border-radius: 0px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -835,6 +835,11 @@ body {
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(81 233 239 / var(--tw-bg-opacity));
+}
+
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 43 66 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -893,6 +898,11 @@ body {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
 .py-12 {
@@ -960,10 +970,6 @@ body {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-5 {
@@ -1203,8 +1209,31 @@ body {
   margin-top: -3rem;
 }
 
-.hover\:h-\[36rem\]:hover {
-  height: 36rem;
+.theFigure .item:nth-child(1) {
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  --tw-translate-x: -120%;
+  --tw-translate-y: -0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.theFigure .item:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  bottom: -0px;
+  --tw-translate-x: -45%;
+  --tw-translate-y: -0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.theFigure .item:nth-child(3) {
+  position: absolute;
+  left: 50%;
+  bottom: -17px;
+  --tw-translate-x: 38%;
+  --tw-translate-y: -0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:border-b-2:hover {
@@ -1221,56 +1250,9 @@ body {
   background-color: rgb(81 233 239 / var(--tw-bg-opacity));
 }
 
-.hover\:filter-none:hover {
-  filter: none;
-}
-
-.hover\:before\:visible:hover::before {
-  content: var(--tw-content);
-  visibility: visible;
-}
-
-.hover\:before\:top-0:hover::before {
-  content: var(--tw-content);
-  top: 0px;
-}
-
-.hover\:before\:block:hover::before {
-  content: var(--tw-content);
-  display: block;
-}
-
-.hover\:before\:py-1:hover::before {
-  content: var(--tw-content);
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.hover\:before\:text-3xl:hover::before {
-  content: var(--tw-content);
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.hover\:before\:text-black:hover::before {
-  content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:before\:content-\[\'Dr\._Cez_Muer_-_Samiano\'\]:hover::before {
-  --tw-content: 'Dr. Cez Muer - Samiano';
-  content: var(--tw-content);
-}
-
-.hover\:before\:content-\[\'Dr\._Jeffrey_M\._Sumague\'\]:hover::before {
-  --tw-content: 'Dr. Jeffrey M. Sumague';
-  content: var(--tw-content);
-}
-
-.hover\:before\:content-\[\'Dr\._Lolita_Flores_-_Fundalian\'\]:hover::before {
-  --tw-content: 'Dr. Lolita Flores - Fundalian';
-  content: var(--tw-content);
+.hover\:grayscale-0:hover {
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .focus\:border-blue-500:focus {
@@ -1287,6 +1269,10 @@ body {
 .focus\:ring-blue-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+}
+
+.group:hover .group-hover\:block {
+  display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1381,6 +1367,10 @@ body {
 
   .lg\:h-\[90vh\] {
     height: 90vh;
+  }
+
+  .lg\:h-\[500px\] {
+    height: 500px;
   }
 
   .lg\:w-10 {
